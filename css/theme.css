@@ -1,18 +1,26 @@
 /* CORE TEMPLATE STYLES
  *
  * Styles for setting a custom theme
- ==========================================*/ 
+ ==========================================*/
+ body {
+	cursor: url(https://assets.awwwards.com/awards/gallery/2017/10/supercursor.png)
+		97 8,
+	  auto !important;
+  }
 
- p { font-size: 1.1em }
+p {
+  font-size: 1.1em;
+}
 
- 
- .splash-cover {
-	 height: 100vh;
-	 background-image: url('../../assets/images/micros.jpg');
-	 background-position: center; background-size: cover;
- }
- .feature-cover {
-	 background-image: url('../../assets/images/county-bldg-brutal-angle-bottom.jpg');
-	 background-position: center; background-size: cover;
- }
+.splash-cover {
+  height: 100vh;
+  background-image: url('../../assets/images/micros.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.feature-cover {
+  background-image: url('../../assets/images/county-bldg-brutal-angle-bottom.jpg');
+  background-position: center;
+  background-size: cover;
+}
 
